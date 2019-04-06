@@ -2,7 +2,7 @@
 
 Click the `Mods` button
 
-![tlog1][]
+![tlog1]
 
 ## Step 2
 Click `Minecraft`

@@ -1,0 +1,7 @@
+{
+    "client": [
+        {"title": "Twitch Log Upload", "fileName": "tLog", "category": "twitch"},
+        {"title": "Downloading Using Twitch", "fileName": "dlTwitch", "category": "twitch"},
+        {"title": "Report Bug", "fileName": "twitchBug", "category": "twitch"}
+    ]
+}
