@@ -1,5 +1,6 @@
 [
     {
+        "id": "client",
         "title": "Client",
         "items": [],
         "twitch": {
