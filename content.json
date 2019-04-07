@@ -3,26 +3,31 @@
         "id": "client",
         "title": "Client",
         "items": [],
-        "twitch": {
-            "title": "Twitch",
-            "items": [
-                {
-                    "title": "Twitch Log Upload",
-                    "fileName": "tLog"
-                },
-                {
-                    "title": "Downloading Using Twitch",
-                    "fileName": "dlTwitch"
-                },
-                {
-                    "title": "Report Bug",
-                    "fileName": "twitchBug"
-                }
-            ]
-        },
-        "legacy": {
-            "title": "Legacy",
-            "items": []
-        }
+        "subItems": [
+            {
+                "id": "twitch",
+                "title": "Twitch",
+                "items": [
+                    {
+                        "title": "Twitch Log Upload",
+                        "fileName": "tLog"
+                    },
+                    {
+                        "title": "Downloading Using Twitch",
+                        "fileName": "dlTwitch"
+                    },
+                    {
+                        "title": "Report Bug",
+                        "fileName": "twitchBug"
+                    }
+                ]
+            },
+            {
+                "id": "legacy",
+                "title": "Legacy",
+                "items": []
+            }
+        ]
+        
     }
 ]
