@@ -2,7 +2,7 @@
 
 Click the `Mods` button
 
-<v-img :src="https://raw.githubusercontent.com/Gaz492/FTB-FAQ/pages/images/tLog/TwitchUI_2017-08-10_18-57-17.png"/>
+<v-img src="https://raw.githubusercontent.com/Gaz492/FTB-FAQ/pages/images/tLog/TwitchUI_2017-08-10_18-57-17.png"/>
 
 ## Step 2
 Click `Minecraft`
