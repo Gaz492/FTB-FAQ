@@ -1,28 +1,26 @@
 <template>
     <v-app>
         <v-navigation-drawer v-model="drawer" fixed app clipped>
-            <v-list>
-                <v-list-tile>
-                    <v-list-tile-action>
-                        <v-icon>home</v-icon>
-                    </v-list-tile-action>
-                    <v-list-tile-title>Home</v-list-tile-title>
-                </v-list-tile>
-
-                <v-list-group prepend-icon="account_circle" value="true">
+            <v-list dense>
+                <v-list-group prepend-icon="home" no-action value="true">
                     <template v-slot:activator>
                         <v-list-tile>
-                            <v-list-tile-title>Client</v-list-tile-title>
+                            <v-list-tile-content>
+                                <v-list-tile-title>Client</v-list-tile-title>
+                            </v-list-tile-content>
                         </v-list-tile>
                     </template>
 
-                    <v-list>
-                        <v-list-tile v-for="item in navData.client" @click="">
-                            <v-list-tile-content>
-                                <v-list-tile-title>{{item.title}}</v-list-tile-title>
-                            </v-list-tile-content>
-                        </v-list-tile>
-                    </v-list>
+                    <v-tooltip right v-for="subItem in navData.client" :key="subItem.title">
+                        <template v-slot:activator="{ on }">
+                            <v-list-tile @click="" v-on="on">
+                                <v-list-tile-content>
+                                    <v-list-tile-title>{{ subItem.title }}</v-list-tile-title>
+                                </v-list-tile-content>
+                            </v-list-tile>
+                        </template>
+                        <span>{{subItem.title}}</span>
+                    </v-tooltip>
                 </v-list-group>
             </v-list>
         </v-navigation-drawer>
@@ -40,14 +38,11 @@
 
 <script>
     import axios from 'axios'
+
     export default {
         data: () => ({
-            admins: [
-                ['Management', 'people_outline'],
-                ['Settings', 'settings']
-            ],
             drawer: null,
-            navData: null
+            navData: {},
         }),
         mounted() {
             axios
