@@ -1,7 +1,19 @@
 {
-    "client": [
-        {"title": "Twitch Log Upload", "fileName": "tLog", "category": "twitch"},
-        {"title": "Downloading Using Twitch", "fileName": "dlTwitch", "category": "twitch"},
-        {"title": "Report Bug", "fileName": "twitchBug", "category": "twitch"}
-    ]
+    "client": {
+        "title": "Client",
+        "items": [],
+        "twitch":{
+            "title": "Twitch",
+            "items":[
+                {"title": "Twitch Log Upload", "fileName": "tLog"},
+                {"title": "Downloading Using Twitch", "fileName": "dlTwitch"},
+                {"title": "Report Bug", "fileName": "twitchBug"}
+            ]
+        },
+        "legacy": {
+            "title": "Legacy",
+            "items": []
+        }
+    }
+   
 }
