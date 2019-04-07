@@ -1,13 +1,22 @@
-{
+[
     "client": {
         "title": "Client",
         "items": [],
-        "twitch":{
+        "twitch": {
             "title": "Twitch",
-            "items":[
-                {"title": "Twitch Log Upload", "fileName": "tLog"},
-                {"title": "Downloading Using Twitch", "fileName": "dlTwitch"},
-                {"title": "Report Bug", "fileName": "twitchBug"}
+            "items": [
+                {
+                    "title": "Twitch Log Upload",
+                    "fileName": "tLog"
+                },
+                {
+                    "title": "Downloading Using Twitch",
+                    "fileName": "dlTwitch"
+                },
+                {
+                    "title": "Report Bug",
+                    "fileName": "twitchBug"
+                }
             ]
         },
         "legacy": {
@@ -15,5 +24,4 @@
             "items": []
         }
     }
-   
-}
+]
