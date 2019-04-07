@@ -1,29 +1,58 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+    <v-app>
+        <v-navigation-drawer v-model="drawer" fixed app clipped>
+            <v-list>
+                <v-list-tile>
+                    <v-list-tile-action>
+                        <v-icon>home</v-icon>
+                    </v-list-tile-action>
+                    <v-list-tile-title>Home</v-list-tile-title>
+                </v-list-tile>
+
+                <v-list-group prepend-icon="account_circle" value="true">
+                    <template v-slot:activator>
+                        <v-list-tile>
+                            <v-list-tile-title>Client</v-list-tile-title>
+                        </v-list-tile>
+                    </template>
+
+                    <v-list>
+                        <v-list-tile v-for="item in navData.client" @click="">
+                            <v-list-tile-content>
+                                <v-list-tile-title>{{item.title}}</v-list-tile-title>
+                            </v-list-tile-content>
+                        </v-list-tile>
+                    </v-list>
+                </v-list-group>
+            </v-list>
+        </v-navigation-drawer>
+        <v-toolbar color="indigo" dark app clipped-left>
+            <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+            <v-toolbar-title>Application</v-toolbar-title>
+        </v-toolbar>
+        <v-content>
+            <v-container fluid>
+                <router-view/>
+            </v-container>
+        </v-content>
+    </v-app>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
+<script>
+    import axios from 'axios'
+    export default {
+        data: () => ({
+            admins: [
+                ['Management', 'people_outline'],
+                ['Settings', 'settings']
+            ],
+            drawer: null,
+            navData: null
+        }),
+        mounted() {
+            axios
+                .get(`https://raw.githubusercontent.com/Gaz492/FTB-FAQ/pages/content.json`)
+                .then(response => (this.navData = response.data));
+        },
     }
-  }
-}
-</style>
+</script>
