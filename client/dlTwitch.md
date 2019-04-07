@@ -44,17 +44,17 @@ Click `Install` on the pack you want to download and wait for it to download
 
 [FTB Launcher](https://ftb.cursecdn.com/FTB2/launcher/FTB_Launcher.jar) For linux users or as a last resort for Windows/MacOS users
 
-[step1]: https://raw.githubusercontent.com/Gaz492/FTB-FAQ/pages/images/twitchDl/TwitchUI_2017-08-11_11-06-21.png
+[step1]: https://gaz492.github.io/FTB-FAQ/images/twitchDl/TwitchUI_2017-08-11_11-06-21.png
 
-[step2]: https://raw.githubusercontent.com/Gaz492/FTB-FAQ/pages/images/twitchDl/TwitchUI_2017-08-11_11-06-24.png
+[step2]: https://gaz492.github.io/FTB-FAQ/images/twitchDl/TwitchUI_2017-08-11_11-06-24.png
 
-[step3.1]: https://raw.githubusercontent.com/Gaz492/FTB-FAQ/pages/images/twitchDl/TwitchUI_2017-08-11_11-06-27.png
+[step3.1]: https://gaz492.github.io/FTB-FAQ/images/twitchDl/TwitchUI_2017-08-11_11-06-27.png
 
-[step3.2]: https://raw.githubusercontent.com/Gaz492/FTB-FAQ/pages/images/twitchDl/TwitchUI_2017-08-11_11-06-31.png
+[step3.2]: https://gaz492.github.io/FTB-FAQ/images/twitchDl/TwitchUI_2017-08-11_11-06-31.png
 
-[step4]: https://raw.githubusercontent.com/Gaz492/FTB-FAQ/pages/images/twitchDl/TwitchUI_2017-08-11_11-06-39.png
+[step4]: https://gaz492.github.io/FTB-FAQ/images/twitchDl/TwitchUI_2017-08-11_11-06-39.png
 
-[step5]: https://raw.githubusercontent.com/Gaz492/FTB-FAQ/pages/images/twitchDl/TwitchUI_2017-08-11_11-09-06.png
+[step5]: https://gaz492.github.io/FTB-FAQ/images/twitchDl/TwitchUI_2017-08-11_11-09-06.png
 
-[step6]: https://raw.githubusercontent.com/Gaz492/FTB-FAQ/pages/images/twitchDl/TwitchUI_2017-08-11_11-09-22.png
+[step6]: https://gaz492.github.io/FTB-FAQ/images/twitchDl/TwitchUI_2017-08-11_11-09-22.png
 

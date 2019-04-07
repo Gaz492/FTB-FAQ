@@ -41,13 +41,13 @@ Click the `I'm Done` button
 ![step5]
 
 
-[step1]: https://raw.githubusercontent.com/Gaz492/FTB-FAQ/pages/images/twitchBug/TwitchUI_2017-08-11_12-13-32.png
+[step1]: https://gaz492.github.io/FTB-FAQ/images/twitchBug/TwitchUI_2017-08-11_12-13-32.png
 
-[step2]: https://raw.githubusercontent.com/Gaz492/FTB-FAQ/pages/images/twitchBug/TwitchUI_2017-08-11_12-13-41.png
+[step2]: https://gaz492.github.io/FTB-FAQ/images/twitchBug/TwitchUI_2017-08-11_12-13-41.png
 
-[step3]: https://raw.githubusercontent.com/Gaz492/FTB-FAQ/pages/images/twitchBug/TwitchUI_2017-08-11_12-14-00.png
+[step3]: https://gaz492.github.io/FTB-FAQ/images/twitchBug/TwitchUI_2017-08-11_12-14-00.png
 
-[step4]: https://raw.githubusercontent.com/Gaz492/FTB-FAQ/pages/images/twitchBug/TwitchUI_2017-08-11_12-14-35.png
+[step4]: https://gaz492.github.io/FTB-FAQ/images/twitchBug/TwitchUI_2017-08-11_12-14-35.png
 
-[step5]: https://raw.githubusercontent.com/Gaz492/FTB-FAQ/pages/images/twitchBug/TwitchUI_2017-08-11_12-15-48.png
+[step5]: https://gaz492.github.io/FTB-FAQ/images/twitchBug/TwitchUI_2017-08-11_12-15-48.png
 
